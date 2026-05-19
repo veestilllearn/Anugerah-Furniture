@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Memanggil Animasi Marquee */
+  --animate-marquee: marquee 15s linear infinite;
+
+  /* Mendefinisikan keyframes */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
